@@ -1,6 +1,6 @@
 {% set name = "fixie" %}
-{% set version = "0.0.2" %}
-{% set sha256 = "49106b22f07b08a65473b8f851b9758547ac9a63742b1c5e1a4baa59e26acf2e" %}
+{% set version = "0.0.3" %}
+{% set sha256 = "f08e8ada650ad1a78d0a968de96e17ace14116ec303573397e5ea265fc1a84db" %}
 
 package:
   name: {{ name|lower }}
