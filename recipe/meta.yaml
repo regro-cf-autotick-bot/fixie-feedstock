@@ -25,6 +25,7 @@ requirements:
     - xonsh
     - cerberus
     - tornado
+    - lazyasd
 
 test:
   imports:
