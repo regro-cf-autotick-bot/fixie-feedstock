@@ -1,6 +1,6 @@
 {% set name = "fixie" %}
-{% set version = "0.0.4" %}
-{% set sha256 = "7688b8ceef2c39f39c35170391bff1ce5367a4ad80c5a7b4cf9092bc3d87fc97" %}
+{% set version = "0.0.8" %}
+{% set sha256 = "173315ac54fbf1b997ae010441186c4d13120d357596fd2afb6f4e71d945c937" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
